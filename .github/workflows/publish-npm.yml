@@ -52,7 +52,8 @@ jobs:
           ! contains(fromJson(steps.versions.outputs.versions), steps.get-version.outputs.version)}}
         run: |
           yarn install --immutable --immutable-cache --check-cache
-          yarn config set "@procube-sandbox:registry" "https://npm.pkg.github.com"
+          echo "@procube-sandbox:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${NPM_AUTH_TOKEN}" >> .npmrc
           yarn publish
         env:
           NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
