@@ -1,5 +1,11 @@
 # @procube/cs-tools-test
 
+## 1.0.1-rc.9
+
+### Patch Changes
+
+- cahnge env variable
+
 ## 1.0.1-rc.8
 
 ### Patch Changes
