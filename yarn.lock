@@ -273,8 +273,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@procube/cs-tools@../cs-tools":
-  version "1.0.1-rc0"
+"@procube/cs-tools@^1.0.1-rc3":
+  version "1.0.1-rc3"
+  resolved "https://registry.yarnpkg.com/@procube/cs-tools/-/cs-tools-1.0.1-rc3.tgz#c4f02a0cb74392602afc42c8951ee2685550bd00"
+  integrity sha512-vnqOoZQx5mvvRdEshOtMBd35VoNxu0lVb0m+gV9ecHXe5jDsDwVrrfkgS4yvc43He3X6CcyknrSLn0NPDoBxRQ==
 
 "@types/minimist@^1.2.0":
   version "1.2.5"
