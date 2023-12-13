@@ -1,5 +1,24 @@
 # @procube/cs-tools-test
 
+## 1.0.1
+
+### Patch Changes
+
+- 4b08acd: modify workflows
+- 84e348d: change scope name
+- 2f9bfb2: regisry add to package.json
+- 8f7b1f8: set registry to .npmrc
+- ae22af5: install cs-tools from npmjs
+- a998a49: add quote
+- d9e3bd9: change scope in package.json
+- 1bdedf7: x
+- e771f8a: add token
+- 1e4d01e: fix error
+- 2cbc258: change scope name to procube-sandbox
+- b128ef9: add double quote
+- a0c7bf2: cahnge env variable
+- 66a5f36: test add
+
 ## 1.0.1-rc.13
 
 ### Patch Changes
