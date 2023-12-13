@@ -33,7 +33,7 @@ jobs:
       - name: Check if the image for the version is already pushed
         id: versions
         run: |
-          echo "versions=$(yarn info $NAME --json versions) >> "$GITHUB_OUTPUT"
+          echo "versions=$(yarn info $NAME --json versions)" >> "$GITHUB_OUTPUT"
         env:
           NAME: ${{ steps.get-name.outputs.name }}
       - name: Use Node.js ${{ matrix.node-version }}
@@ -47,7 +47,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           token: ${{ secrets.GITHUB_TOKEN }}
           # Defaults to the user or organization that owns the workflow file
-          scope: '@procube'
+          # scope: '@YOUR-ORGANIZATION'
       - name: Publish npm package
         if: >-
           ${{steps.check-in-pre.outputs.pre == 0 &&
