@@ -1,5 +1,11 @@
 # @procube/cs-tools-test
 
+## 1.0.1-rc.5
+
+### Patch Changes
+
+- add token
+
 ## 1.0.1-rc.4
 
 ### Patch Changes
