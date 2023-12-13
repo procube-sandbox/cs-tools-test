@@ -1,6 +1,6 @@
 {
-  "name": "@procube/cs-tools-test",
-  "version": "1.0.1-rc.9",
+  "name": "@procube-sandbox/cs-tools-test",
+  "version": "1.0.1-rc.10",
   "main": "index.js",
   "author": "Mitsuru Nakakawaji <mitsuru@procube.jp>",
   "license": "MIT",

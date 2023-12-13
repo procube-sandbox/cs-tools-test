@@ -3,13 +3,15 @@
   "tag": "rc",
   "initialVersions": {
     "cs-tools-test": "1.0.0",
-    "@procube/cs-tools-test": "1.0.0"
+    "@procube/cs-tools-test": "1.0.0",
+    "@procube-sandbox/cs-tools-test": "1.0.1-rc.9"
   },
   "changesets": [
     "brave-monkeys-live",
     "brown-jars-whisper",
     "five-kiwis-study",
     "pink-comics-play",
+    "plenty-eggs-drum",
     "rotten-students-reply",
     "serious-tigers-press",
     "shiny-moons-repeat",

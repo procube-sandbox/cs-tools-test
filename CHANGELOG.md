@@ -1,5 +1,11 @@
 # @procube/cs-tools-test
 
+## 1.0.1-rc.10
+
+### Patch Changes
+
+- change scope in package.json
+
 ## 1.0.1-rc.9
 
 ### Patch Changes
