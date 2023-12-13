@@ -43,7 +43,7 @@ jobs:
       - name: Check if the image for the version is already pushed
         id: versions
         run: |
-          echo "versions=$(yarn info $NAME --json versions)" >> "$GITHUB_OUTPUT"
+          echo "versions='$(yarn info $NAME --json versions)'" >> "$GITHUB_OUTPUT"
         env:
           NAME: ${{ steps.get-name.outputs.name }}
       - name: Publish npm package
