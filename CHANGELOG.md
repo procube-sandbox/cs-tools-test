@@ -1,5 +1,11 @@
 # @procube/cs-tools-test
 
+## 1.0.1-rc.11
+
+### Patch Changes
+
+- regisry add to package.json
+
 ## 1.0.1-rc.10
 
 ### Patch Changes
