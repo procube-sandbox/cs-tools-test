@@ -32,7 +32,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           token: ${{ secrets.GITHUB_TOKEN }}
           # Defaults to the user or organization that owns the workflow file
-          scope: '@procube'
+          scope: '@procube-sandbox'
       - name: Get package name to be released
         id: get-name
         run: node -e "console.log('name=' + require('./package.json').name)" >> "$GITHUB_OUTPUT"

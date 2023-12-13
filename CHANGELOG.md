@@ -1,5 +1,11 @@
 # @procube/cs-tools-test
 
+## 1.0.1-rc.8
+
+### Patch Changes
+
+- change scope name to procube-sandbox
+
 ## 1.0.1-rc.7
 
 ### Patch Changes
