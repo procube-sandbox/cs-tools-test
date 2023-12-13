@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "rc",
+  "initialVersions": {
+    "cs-tools-test": "1.0.0",
+    "@procube/cs-tools-test": "1.0.0"
+  },
+  "changesets": [
+    "wild-spiders-occur"
+  ]
+}

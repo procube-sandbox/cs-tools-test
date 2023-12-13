@@ -47,7 +47,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           token: ${{ secrets.GITHUB_TOKEN }}
           # Defaults to the user or organization that owns the workflow file
-          # scope: '@YOUR-ORGANIZATION'
+          scope: '@procube'
       - name: Publish npm package
         if: >-
           ${{steps.check-in-pre.outputs.pre == 0 &&
