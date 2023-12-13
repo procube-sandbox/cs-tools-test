@@ -1,5 +1,11 @@
 # @procube/cs-tools-test
 
+## 1.0.1-rc.7
+
+### Patch Changes
+
+- change scope name
+
 ## 1.0.1-rc.6
 
 ### Patch Changes
